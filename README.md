@@ -222,6 +222,11 @@ The checks rebuild the bilingual workflow documents, validate repository discove
 └── workflows/
 ```
 
+
+## Related short-form tools
+
+- [ReelWorkshop](https://reelworkshop.com) - Remix clips into short-form compilations for Reels, Shorts, TikTok, and Facebook.
+
 ## Contributing
 
 Corrections, stronger open workflows, and source-backed cases are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md). Do not submit affiliate links, scraped commercial copy, unverified claims, or third-party media without rights.
