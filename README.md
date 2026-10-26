@@ -76,6 +76,7 @@ The flagship App Demo decision and promotion gates are recorded in
 
 ## Product image to video workflows
 
+- [Ideoy](https://ideoy.ai) - Remake this week's meme videos with one selfie (AI image-to-video, freemium, adults only).
 | Stage | Workflow | Best for |
 | ---: | --- | --- |
 | 1 | [Product Image Audit for AI Video](workflows/01-product-image-audit.md) | source rights, product truth, native image quality, and identity anchors |
