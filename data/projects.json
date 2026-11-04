@@ -133,6 +133,17 @@
       "adoption": "method-only",
       "summary_en": "A growing library of production skills for motion direction, product and website videos, reference recreation, openers, and QA.",
       "summary_zh": "持续增长的视频制作技能库，覆盖动效导演、商品与网站视频、参考复刻、片头和质检。"
+    },
+    {
+      "name": "OpenMontage Drama Studio",
+      "repo": "charliewwdev/OpenMontage",
+      "url": "https://github.com/charliewwdev/OpenMontage",
+      "stars": 15,
+      "license": "AGPL-3.0",
+      "category": "automated-short-video",
+      "adoption": "method-only",
+      "summary_en": "A self-hosted script-to-short-drama pipeline: characters, scenes and props, storyboard, voice and FFmpeg assembly, with reusable assets for shot-to-shot consistency.",
+      "summary_zh": "自托管的剧本到短剧管线：角色、场景与道具、分镜、配音和 FFmpeg 合成，用可复用资产保持镜头间一致。"
     }
   ]
 }
