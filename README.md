@@ -97,6 +97,12 @@ A synthetic adult creator demonstrates a fictional unbranded clip light in a 10-
 
 [Read the case and evidence](examples/clip-light-ugc-ad/README.md)
 
+### External case: three cuts and a voiceover payoff
+
+A completed 6.4-second, 720 × 1280 action-comedy recut shows how source-clock trims and a final-scene voiceover change the story of an existing master. The case includes both complete films, exact cut ranges, file metadata and QC limits. Produced by the SeedanceCheap team with Codex AI assistance; this is not a HiAPIAI-generated output or an ad-performance benchmark.
+
+[Inspect the external recut case](examples/three-cut-action-recut/README.md)
+
 ### Cinematic product launch
 
 A reusable recipe for converting one approved product image into multi-view references, a commercial hero frame, three shot cards, short image-to-video clips, and a product-launch rough cut.
