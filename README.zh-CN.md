@@ -84,6 +84,12 @@ npx -y github:HiAPIAI/awesome-ai-video-workflows -y
 
 [查看案例与证据](examples/clip-light-ugc-ad/README.md)
 
+### 外部案例：三段剪辑与配音反转
+
+一个已完成的 6.4 秒、720 × 1280 动作喜剧短剪，展示如何用源素材时间码和最后一段配音改变既有母版的叙事。案例提供两个完整视频、精确剪辑区间、文件元数据及质检边界。由 SeedanceCheap 团队借助 Codex AI 制作，不是 HiAPIAI 生成结果，也不是广告效果基准。
+
+[检查外部短剪案例](examples/three-cut-action-recut/README.zh-CN.md)
+
 ### 电影感商品发布视频
 
 从一张批准的商品图出发，生成多视图参考、商业主视觉、三张镜头卡、短图生视频片段和产品发布粗剪的可复用配方。
