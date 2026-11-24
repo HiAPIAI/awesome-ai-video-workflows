@@ -1,6 +1,6 @@
 import {isIP} from 'node:net';
 
-const officialApiHosts = new Set(['api.hiapi.ai', 'apidev.hiapi.ai']);
+const officialApiHosts = new Set(['api.hiapi.ai']);
 const reservedWindowsName = /^(?:CON|PRN|AUX|NUL|COM[1-9]|LPT[1-9])$/i;
 
 export function normalizeApiKey(value: string | undefined): string {

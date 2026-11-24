@@ -17,7 +17,7 @@ const maxMediaBytes = 90 * 1024 * 1024;
 const maxRequestBytes = 127 * 1024 * 1024;
 const maxDownloadBytes = 1024 * 1024 * 1024;
 const maxJsonResponseBytes = 2 * 1024 * 1024;
-const officialApiHosts = new Set(["api.hiapi.ai", "apidev.hiapi.ai"]);
+const officialApiHosts = new Set(["api.hiapi.ai"]);
 const pendingRetryWindowMs = 23 * 60 * 60 * 1000;
 const ambiguousSubmissionStatuses = new Set([408, 409, 422, 425, 429]);
 
