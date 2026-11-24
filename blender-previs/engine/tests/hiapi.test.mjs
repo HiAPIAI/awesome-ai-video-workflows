@@ -45,12 +45,12 @@ test("preflight token binds request, endpoint, and stable MP4 bytes without logg
     fs.writeFileSync(video, minimalMp4(1));
     const first = prepareRequest(template, video, { embedMedia: true, baseUrl: "https://api.hiapi.ai" });
     const second = prepareRequest(template, video, { embedMedia: true, baseUrl: "https://api.hiapi.ai/" });
-    const development = prepareRequest(template, video, { baseUrl: "https://apidev.hiapi.ai" });
+    const development = prepareRequest(template, video, { baseUrl: "https://proxy.example" });
 
     assert.equal(first.preflightToken, second.preflightToken);
     assert.notEqual(first.preflightToken, development.preflightToken);
     assert.equal(first.summary.endpoint, "https://api.hiapi.ai/v1/tasks");
-    assert.equal(development.summary.endpoint, "https://apidev.hiapi.ai/v1/tasks");
+    assert.equal(development.summary.endpoint, "https://proxy.example/v1/tasks");
     assert.match(first.payload.input.reference_video_urls[0], /^data:video\/mp4;base64,/);
     assert.doesNotMatch(JSON.stringify(first.summary), /base64/);
 
@@ -98,7 +98,6 @@ test("paid review gate binds the exact request and video to completed human revi
 
 test("trusted API targets require an official host or explicit custom-target approval", () => {
   assert.equal(assertTrustedApiTarget("https://api.hiapi.ai/"), "https://api.hiapi.ai");
-  assert.equal(assertTrustedApiTarget("https://apidev.hiapi.ai"), "https://apidev.hiapi.ai");
   assert.equal(assertTrustedApiTarget("http://[::1]:3000"), "http://[::1]:3000");
   assert.throws(() => assertTrustedApiTarget("https://proxy.example"), /custom HIAPI_BASE_URL/);
   assert.equal(assertTrustedApiTarget("https://proxy.example", true), "https://proxy.example");
